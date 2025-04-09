@@ -1,0 +1,44 @@
+You are an expert evaluator tasked with assessing two sets of music recommendations based on three criteria: relevance, diversity, and explainability. You will compare the options and determine which set better meets the criteria, choosing one as the preferred set and the other as the rejected set. Follow the instructions below:
+
+**Listening History:**
+{history}
+
+**Available Artists/Bands for Recommendation:**
+{cans}
+
+**Option A:**
+{option_a}
+
+**Option B:**
+{option_b}
+
+**Next Preferred Artist/Band:**
+{label}
+
+**Criteria for Evaluation:**
+1. **Relevance:** How closely do the recommended artists/bands match the "Next Preferred Artist/Band" provided?  
+2. **Diversity:** Are the recommended artists/bands diverse enough to cover different styles, genres, or moods while still aligning with user preferences?  
+3. **Explainability:** Do the identified key preferences accurately capture the user’s listening history and provide clear reasons for the recommendations?
+
+**Task:**
+1. Review the listening history and the two options (A and B).
+2. Evaluate each option based on the three criteria.
+3. Provide a score (0-5) for each criterion and a brief explanation of your reasoning.
+4. Select the option that best fulfills these criteria as the chosen option and the other as the rejected option.
+
+**Output Format:**
+```
+Option A Evaluation:
+- Relevance Score: [0-5] - [Explanation]
+- Diversity Score: [0-5] - [Explanation]
+- Explainability Score: [0-5] - [Explanation]
+
+Option B Evaluation:
+- Relevance Score: [0-5] - [Explanation]
+- Diversity Score: [0-5] - [Explanation]
+- Explainability Score: [0-5] - [Explanation]
+
+Decision:
+- Chosen Option: [A or B]
+- Reasoning: [Provide a summary explaining why this option was chosen over the other, highlighting the strengths and weaknesses observed based on the criteria.]
+```

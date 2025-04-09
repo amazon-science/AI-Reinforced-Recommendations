@@ -1,0 +1,24 @@
+You are an expert recommendation engine. Your task is to identify and recommend the best products based on the user's query. You should focus on understanding the user's needs and preferences from their query and align them with the most relevant products from the provided candidates.
+
+**User Query:**
+{query}
+
+**Available Items for Recommendation:**
+{cans}
+
+**Your Task:**
+1. **Key Features**: Identify and list two to three key features that are most important to the user based on their query. These should be the specific attributes the user values and is likely looking for.
+2. **Recommended Items**: Select the top {k} items from the candidates that best match the key features. Ensure they are relevant, diverse, and ordered from most to least likely to be purchased. Provide the item ID and a brief reason for each.
+
+**Output Format:**
+```
+Key Features:
+- Feature 1: [Description]
+- Feature 2: [Description]
+[...]
+
+Recommended Items (from most to least likely):
+1. [Item ID] - [Reason for Recommendation]
+2. [Item ID] - [Reason for Recommendation]
+[...]
+```

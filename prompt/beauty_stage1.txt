@@ -1,0 +1,15 @@
+This person has purchased {history} in the past. Please predict the next product this person will buy. Choose the answer from the following 10 product titles: {cans}. Answer:
+This person has purchased {history} in the past. Given the following 10 product titles: {cans}, recommend one product for this person to purchase next. Answer:
+The purchase history of this person is: {history}. Recommend a next product for this person to purchase from the following product title set: {cans}. The recommendation should contain one product title only. Answer:
+Based on the person's previous purchases of {history}, which product from the options {cans} do you think they will buy next? Answer:
+The person has recently purchased {history}. Can you predict the next product they will buy from the provided options {cans}? Answer:
+After purchasing {history}, which product do you think the person will choose next from the given options {cans}? Answer:
+Having previously purchased {history}, which product from the list {cans} do you anticipate the person will buy next? Answer:
+Can you predict the next product this person will buy based on their previous purchases of {history}? Choose the answer from the provided options: {cans}. Answer:
+The person's purchase history includes {history}. Now, which product do you expect them to buy next? Select the answer from the given options: {cans}. Answer:
+Given that the person has already purchased {history}, which product would you recommend this person to buy next from the available choices {cans}? Answer:
+After purchasing {history}, the person is presented with the following product options {cans}. Can you predict their next choice? Answer:
+The person's purchase history contains {history}. Please suggest the next product this person is likely to buy from the provided options: {cans}. Answer:
+Given the previous product choice of {history}, which product do you anticipate the person will buy next? Select the answer from the available options: {cans}. Answer:
+The person has recently bought {history}. Now, which product from the provided options {cans} do you predict this person will buy next? Answer:
+Based on the person's previous purchase of {history}, which product would be the most likely next selection from the given options {cans}? Answer:

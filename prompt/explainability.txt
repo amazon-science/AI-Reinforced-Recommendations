@@ -1,0 +1,13 @@
+**Purchase History:**
+{history}
+
+**Key Features:**
+{key_features}
+
+**Evaluation Instructions:**
+You are an expert evaluator for a recommendation system. Assess the Explainability of the recommendations by determining how well the identified key features interpret and align with the purchase history. Provide a score (0-100), with higher scores reflecting stronger alignment and clearer reasoning.
+
+Output Format:
+```
+Explainability Score: [0-100] - [Brief explanation of the score]
+```
